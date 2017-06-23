@@ -20,7 +20,7 @@ public class AutorBean {
 		return autor;
 	}
 	
-	public void cadastra() {
+	public void cadastra() throws Exception {
 		this.dao.salva(autor);
 		this.autor = new Autor();
 	}

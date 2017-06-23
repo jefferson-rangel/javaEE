@@ -22,6 +22,7 @@ public class LivroBean {
 	@Inject
 	private AutorDao autorDao;
 
+	
 	public void cadastra() {
 		
 		Autor autor = this.autorDao.buscaPelaId(this.autorId);
